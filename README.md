@@ -4,7 +4,7 @@ A modern, responsive personal portfolio for **Nazeer Ahmed**, a Computer Science
 
 ## Live Website
 
-> **Production URL:** _Pending Vercel deployment._
+> **Production URL:** **https://nazeer-ahmed-portfolio.vercel.app**
 
 ## GitHub Repository
 
@@ -171,7 +171,7 @@ npx vercel
 npx vercel --prod
 ```
 
-After the first deployment, replace the placeholder production URL in this README with the real one.
+The production site is available at **https://nazeer-ahmed-portfolio.vercel.app**. Pushing to `main` triggers a new production deployment through the Vercel GitHub integration.
 
 ## Customizing the Content
 
