@@ -1,0 +1,17 @@
+{
+  "name": "Nazeer Ahmed — Portfolio",
+  "short_name": "Nazeer Ahmed",
+  "description": "Personal portfolio of Nazeer Ahmed, Computer Science student at Sukkur IBA University.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070f",
+  "theme_color": "#05070f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

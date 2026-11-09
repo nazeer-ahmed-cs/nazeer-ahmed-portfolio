@@ -58,6 +58,9 @@ nazeer-ahmed-portfolio/
 │       └── projects-desktop.png
 ├── public/
 │   ├── favicon.svg
+│   ├── og-image.png
+│   ├── site.webmanifest
+│   ├── 404.html
 │   ├── about-illustration.svg
 │   ├── profile-illustration.svg
 │   ├── project-semester-manager.svg
