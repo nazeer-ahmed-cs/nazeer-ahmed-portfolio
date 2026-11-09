@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resume of Nazeer Ahmed — Computer Science student at Sukkur IBA University." />
+    <meta name="color-scheme" content="light" />
+    <title>Resume — Nazeer Ahmed</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #0f172a;
+        --body: #3f4a5e;
+        --muted: #64748b;
+        --line: #e2e8f0;
+        --accent: #2563eb;
+        --accent-soft: #eff4ff;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      * {
+        margin: 0;
+      }
+
+      body {
+        background: #eef2f8;
+        color: var(--body);
+        font-family: 'Inter', system-ui, sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        padding: 2rem 1rem 3rem;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        width: min(100%, 820px);
+        margin: 0 auto 1rem;
+      }
+
+      .toolbar a,
+      .toolbar button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.6rem 0.95rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: #ffffff;
+        color: var(--ink);
+        font: inherit;
+        font-size: 0.82rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .toolbar a:hover,
+      .toolbar button:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .page {
+        width: min(100%, 820px);
+        margin: 0 auto;
+        padding: clamp(1.75rem, 6vw, 3.25rem);
+        border-radius: 16px;
+        background: #ffffff;
+        box-shadow: 0 24px 70px rgba(15, 23, 42, 0.1);
+      }
+
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 2px solid var(--ink);
+      }
+
+      h1 {
+        color: var(--ink);
+        font-family: 'Sora', 'Inter', sans-serif;
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+      }
+
+      .role {
+        margin-top: 0.35rem;
+        color: var(--accent);
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .contact {
+        display: grid;
+        gap: 0.2rem;
+        min-width: 0;
+        font-size: 0.8rem;
+        text-align: right;
+        overflow-wrap: anywhere;
+      }
+
+      .contact a {
+        color: var(--body);
+        text-decoration: none;
+      }
+
+      .contact a:hover {
+        color: var(--accent);
+      }
+
+      section {
+        margin-top: 1.6rem;
+      }
+
+      h2 {
+        margin-bottom: 0.85rem;
+        color: var(--ink);
+        font-family: 'Sora', 'Inter', sans-serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: var(--ink);
+        font-size: 0.98rem;
+        font-weight: 600;
+      }
+
+      .entry {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.25rem 1rem;
+      }
+
+      .entry span {
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+
+      .entry + p,
+      .entry + ul {
+        margin-top: 0.3rem;
+      }
+
+      p {
+        font-size: 0.88rem;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        padding: 0;
+        list-style: none;
+      }
+
+      .chips li {
+        padding: 0.28rem 0.6rem;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--accent-soft);
+        color: #1e3a8a;
+        font-size: 0.76rem;
+        font-weight: 500;
+      }
+
+      .project {
+        padding: 0.9rem 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .project:first-of-type {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      .project p {
+        margin-top: 0.2rem;
+        font-size: 0.85rem;
+      }
+
+      .project .tech {
+        margin-top: 0.35rem;
+        color: var(--muted);
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.72rem;
+      }
+
+      .note {
+        margin-top: 1.75rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.72rem;
+        text-align: center;
+      }
+
+      @media (max-width: 560px) {
+        .contact {
+          text-align: left;
+        }
+      }
+
+      @media print {
+        body {
+          padding: 0;
+          background: #ffffff;
+          font-size: 12.5px;
+        }
+
+        .toolbar {
+          display: none;
+        }
+
+        .page {
+          width: 100%;
+          padding: 0;
+          border-radius: 0;
+          box-shadow: none;
+        }
+
+        a {
+          color: var(--body) !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar">
+      <a href="/">← Back to portfolio</a>
+      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <main class="page">
+      <header>
+        <div>
+          <h1>Nazeer Ahmed</h1>
+          <p class="role">Computer Science Student · Aspiring Software Engineer</p>
+        </div>
+        <div class="contact">
+          <span>Pakistan</span>
+          <a href="mailto:nazeerahmedkhaskhelin51l@gmail.com">nazeerahmedkhaskhelin51l@gmail.com</a>
+          <a href="https://github.com/nazeer-ahmed-cs" target="_blank" rel="noreferrer">github.com/nazeer-ahmed-cs</a>
+          <a href="https://www.linkedin.com/in/nazeer-ahmed-971382327/" target="_blank" rel="noreferrer">linkedin.com/in/nazeer-ahmed-971382327</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Profile</h2>
+        <p>
+          Computer Science student at Sukkur IBA University passionate about building software,
+          solving problems, and exploring emerging technologies. Continuously learning and working
+          on projects to turn ideas into practical solutions, with a growing interest in artificial
+          intelligence, machine learning, and full-stack development.
+        </p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="entry">
+          <h3>BS Computer Science</h3>
+          <span>Sukkur IBA University</span>
+        </div>
+        <p>Pakistan · In progress</p>
+        <ul class="chips" style="margin-top: 0.55rem">
+          <li>Data Structures &amp; Algorithms</li>
+          <li>Software Engineering</li>
+          <li>Databases</li>
+          <li>Operating Systems</li>
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <ul class="chips">
+          <li>C++</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React</li>
+          <li>SQL</li>
+          <li>MySQL</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <article class="project">
+          <div class="entry">
+            <h3>Semester Manager</h3>
+            <span>Student productivity &amp; semester management</span>
+          </div>
+          <p>
+            An application designed to organize courses, tasks, and the rhythm of a busy academic
+            term in one focused workspace.
+          </p>
+          <p class="tech">React · FastAPI · Python · SQLAlchemy · SQLite</p>
+        </article>
+        <article class="project">
+          <div class="entry">
+            <h3>SysMonitor</h3>
+            <span>Linux system call &amp; process monitoring</span>
+          </div>
+          <p>
+            A systems project built to understand how programs interact with the operating system
+            at a lower level through process and system call monitoring.
+          </p>
+          <p class="tech">C · Linux · Operating Systems</p>
+        </article>
+        <article class="project">
+          <div class="entry">
+            <h3>Personal Portfolio</h3>
+            <span>Responsive personal website</span>
+          </div>
+          <p>
+            A responsive portfolio that brings together background, skills, and selected work in a
+            fast, accessible React experience.
+          </p>
+          <p class="tech">React · JavaScript · CSS</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Interests</h2>
+        <ul class="chips">
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+          <li>Data Science</li>
+          <li>Full-Stack Development</li>
+          <li>Software Engineering</li>
+          <li>Problem Solving</li>
+          <li>Data Structures &amp; Algorithms</li>
+        </ul>
+      </section>
+
+      <p class="note">
+        This resume page is generated from the information on the portfolio. You can update it in
+        <code>public/resume.html</code> or replace this link with an uploaded PDF.
+      </p>
+    </main>
+  </body>
+</html>

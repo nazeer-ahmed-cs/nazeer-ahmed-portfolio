@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="none" role="img" aria-label="Developer workspace with code, data, and learning notes">
+  <defs>
+    <linearGradient id="about-bg" x1="96" y1="72" x2="544" y2="568" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#7C3AED" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="about-panel" x1="150" y1="150" x2="500" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111A30"/>
+      <stop offset="1" stop-color="#0A1020"/>
+    </linearGradient>
+    <linearGradient id="about-accent" x1="180" y1="120" x2="470" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset=".6" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="about-bar" x1="190" y1="470" x2="470" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity=".18"/>
+    </linearGradient>
+    <radialGradient id="about-glow" cx="0" cy="0" r="1" gradientTransform="translate(320 300) rotate(90) scale(240)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="about-soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="about-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#020617" flood-opacity=".55"/>
+    </filter>
+    <pattern id="about-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#94A3B8" fill-opacity=".14"/>
+    </pattern>
+  </defs>
+
+  <rect x="24" y="24" width="592" height="592" rx="40" fill="url(#about-bg)" stroke="#94A3B8" stroke-opacity=".16"/>
+  <rect x="24" y="24" width="592" height="592" rx="40" fill="url(#about-dots)" opacity=".55"/>
+  <circle cx="320" cy="304" r="210" fill="url(#about-glow)" filter="url(#about-soft)"/>
+
+  <g opacity=".8">
+    <circle cx="116" cy="188" r="4" fill="#60A5FA"/>
+    <circle cx="518" cy="214" r="3.5" fill="#22D3EE"/>
+    <circle cx="132" cy="470" r="3" fill="#A78BFA"/>
+    <circle cx="512" cy="480" r="4" fill="#60A5FA"/>
+    <path d="M122 188H74M518 214H560M132 470H88M512 480H556" stroke="#60A5FA" stroke-opacity=".25" stroke-dasharray="3 6"/>
+  </g>
+
+  <g filter="url(#about-shadow)">
+    <rect x="140" y="142" width="360" height="286" rx="20" fill="url(#about-panel)" stroke="#94A3B8" stroke-opacity=".2"/>
+    <rect x="140" y="142" width="360" height="42" rx="20" fill="#0B1122"/>
+    <rect x="140" y="164" width="360" height="20" fill="#0B1122"/>
+    <circle cx="166" cy="163" r="5" fill="#F87171"/>
+    <circle cx="184" cy="163" r="5" fill="#FBBF24"/>
+    <circle cx="202" cy="163" r="5" fill="#34D399"/>
+    <rect x="228" y="155" width="140" height="16" rx="8" fill="#1E293B"/>
+    <text x="298" y="167" text-anchor="middle" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="10">learning.jsx</text>
+
+    <g font-family="JetBrains Mono, monospace" font-size="12">
+      <text x="166" y="216" fill="#64748B">01</text>
+      <text x="196" y="216" fill="#A78BFA">const</text>
+      <text x="240" y="216" fill="#BFDBFE">curiosity</text>
+      <text x="316" y="216" fill="#64748B">=</text>
+      <text x="334" y="216" fill="#60A5FA">true</text>
+      <text x="166" y="240" fill="#64748B">02</text>
+      <text x="196" y="240" fill="#A78BFA">while</text>
+      <text x="240" y="240" fill="#64748B">(</text>
+      <text x="250" y="240" fill="#BFDBFE">curiosity</text>
+      <text x="326" y="240" fill="#64748B">) {</text>
+      <text x="166" y="264" fill="#64748B">03</text>
+      <text x="212" y="264" fill="#60A5FA">learn</text>
+      <text x="260" y="264" fill="#64748B">(</text>
+      <text x="270" y="264" fill="#34D399">'fundamentals'</text>
+      <text x="374" y="264" fill="#64748B">)</text>
+      <text x="166" y="288" fill="#64748B">04</text>
+      <text x="212" y="288" fill="#60A5FA">build</text>
+      <text x="260" y="288" fill="#64748B">(</text>
+      <text x="270" y="288" fill="#34D399">'projects'</text>
+      <text x="346" y="288" fill="#64748B">)</text>
+      <text x="166" y="312" fill="#64748B">05</text>
+      <text x="212" y="312" fill="#60A5FA">share</text>
+      <text x="260" y="312" fill="#64748B">(</text>
+      <text x="270" y="312" fill="#34D399">'what I learn'</text>
+      <text x="374" y="312" fill="#64748B">)</text>
+      <text x="166" y="336" fill="#64748B">06</text>
+      <text x="196" y="336" fill="#64748B">}</text>
+    </g>
+
+    <rect x="166" y="362" width="308" height="44" rx="10" fill="#0B1122" stroke="#60A5FA" stroke-opacity=".3"/>
+    <circle cx="188" cy="384" r="5" fill="#34D399"/>
+    <text x="202" y="388" fill="#A6B2C8" font-family="JetBrains Mono, monospace" font-size="11">growing one commit at a time</text>
+    <rect x="428" y="373" width="32" height="22" rx="6" fill="#60A5FA" fill-opacity=".18"/>
+  </g>
+
+  <g filter="url(#about-shadow)">
+    <rect x="392" y="398" width="176" height="122" rx="18" fill="#0B1122" stroke="#A78BFA" stroke-opacity=".32"/>
+    <text x="414" y="426" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">LEARNING PATH</text>
+    <rect x="414" y="440" width="132" height="8" rx="4" fill="#1E293B"/>
+    <rect x="414" y="440" width="96" height="8" rx="4" fill="url(#about-bar)"/>
+    <rect x="414" y="460" width="132" height="8" rx="4" fill="#1E293B"/>
+    <rect x="414" y="460" width="72" height="8" rx="4" fill="url(#about-bar)"/>
+    <rect x="414" y="480" width="132" height="8" rx="4" fill="#1E293B"/>
+    <rect x="414" y="480" width="110" height="8" rx="4" fill="url(#about-bar)"/>
+    <text x="414" y="508" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="9">never finished, always curious</text>
+  </g>
+
+  <g filter="url(#about-shadow)">
+    <rect x="84" y="420" width="150" height="86" rx="16" fill="#0B1122" stroke="#60A5FA" stroke-opacity=".32"/>
+    <text x="104" y="448" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">FOCUS</text>
+    <text x="104" y="474" fill="#BFDBFE" font-family="Sora, Inter, sans-serif" font-size="15" font-weight="600">AI &amp; ML</text>
+    <text x="104" y="492" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="9">data · models · ideas</text>
+  </g>
+
+  <g opacity=".6" stroke="#A78BFA" stroke-width="1.2">
+    <path d="M470 120L492 98L514 120L492 142L470 120Z"/>
+    <path d="M128 300L144 284L160 300L144 316L128 300Z"/>
+  </g>
+</svg>

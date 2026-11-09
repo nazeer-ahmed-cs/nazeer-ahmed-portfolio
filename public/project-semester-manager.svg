@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none" role="img" aria-label="Semester Manager dashboard preview with course cards, a weekly schedule, and task progress">
+  <defs>
+    <linearGradient id="sm-bg" x1="0" y1="0" x2="800" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1224"/>
+      <stop offset="1" stop-color="#070B16"/>
+    </linearGradient>
+    <linearGradient id="sm-accent" x1="60" y1="80" x2="700" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset=".6" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="sm-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="sm-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#020617" flood-opacity=".5"/>
+    </filter>
+    <pattern id="sm-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1.3" cy="1.3" r="1.3" fill="#94A3B8" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#sm-bg)"/>
+  <rect width="800" height="520" fill="url(#sm-dots)" opacity=".7"/>
+  <circle cx="690" cy="80" r="180" fill="#60A5FA" fill-opacity=".08"/>
+  <circle cx="120" cy="470" r="160" fill="#A78BFA" fill-opacity=".07"/>
+
+  <g filter="url(#sm-shadow)">
+    <rect x="32" y="28" width="736" height="464" rx="18" fill="#0A1120" stroke="#94A3B8" stroke-opacity=".18"/>
+    <rect x="32" y="28" width="736" height="48" rx="18" fill="#0C1428"/>
+    <rect x="32" y="56" width="736" height="20" fill="#0C1428"/>
+    <circle cx="58" cy="52" r="5" fill="#F87171"/>
+    <circle cx="76" cy="52" r="5" fill="#FBBF24"/>
+    <circle cx="94" cy="52" r="5" fill="#34D399"/>
+    <rect x="120" y="42" width="190" height="20" rx="10" fill="#111C34"/>
+    <text x="215" y="56" text-anchor="middle" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="10">semester-manager.app</text>
+    <circle cx="730" cy="52" r="10" fill="#1E293B"/>
+    <text x="730" y="56" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="10">N</text>
+
+    <rect x="52" y="96" width="150" height="380" rx="14" fill="#0B1426" stroke="#94A3B8" stroke-opacity=".12"/>
+    <rect x="70" y="112" width="86" height="26" rx="8" fill="url(#sm-accent)" fill-opacity=".2"/>
+    <text x="82" y="129" fill="#BFDBFE" font-family="Sora, Inter, sans-serif" font-size="11" font-weight="600">Semester</text>
+    <g font-family="Inter, sans-serif" font-size="10">
+      <rect x="68" y="154" width="118" height="26" rx="7" fill="#60A5FA" fill-opacity=".14"/>
+      <text x="86" y="171" fill="#BFDBFE">Dashboard</text>
+      <text x="86" y="203" fill="#64748B">Courses</text>
+      <text x="86" y="235" fill="#64748B">Tasks</text>
+      <text x="86" y="267" fill="#64748B">Schedule</text>
+      <text x="86" y="299" fill="#64748B">Notes</text>
+    </g>
+    <rect x="68" y="330" width="118" height="1" fill="#94A3B8" fill-opacity=".14"/>
+    <text x="82" y="356" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="1">TERM</text>
+    <text x="82" y="376" fill="#A6B2C8" font-family="Inter, sans-serif" font-size="10">Spring 2026</text>
+    <rect x="68" y="398" width="118" height="58" rx="10" fill="#111C34"/>
+    <text x="82" y="418" fill="#64748B" font-family="Inter, sans-serif" font-size="9">Weekly focus</text>
+    <text x="82" y="434" fill="#BFDBFE" font-family="Sora, Inter, sans-serif" font-size="14" font-weight="600">18h 30m</text>
+    <rect x="82" y="442" width="90" height="5" rx="2.5" fill="#1E293B"/>
+    <rect x="82" y="442" width="62" height="5" rx="2.5" fill="url(#sm-bar)"/>
+
+    <text x="224" y="116" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="18" font-weight="600">Good morning, Nazeer</text>
+    <text x="224" y="136" fill="#64748B" font-family="Inter, sans-serif" font-size="10">Here is how your semester is shaping up.</text>
+    <rect x="672" y="104" width="96" height="28" rx="8" fill="url(#sm-accent)"/>
+    <text x="720" y="122" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="600">+ Add task</text>
+
+    <g font-family="Inter, sans-serif">
+      <rect x="224" y="154" width="168" height="96" rx="12" fill="#0B1426" stroke="#60A5FA" stroke-opacity=".25"/>
+      <text x="240" y="176" fill="#64748B" font-size="9">COURSES</text>
+      <text x="240" y="202" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="24" font-weight="700">6</text>
+      <text x="240" y="222" fill="#60A5FA" font-size="9">active this term</text>
+      <rect x="240" y="232" width="100" height="5" rx="2.5" fill="#1E293B"/>
+      <rect x="240" y="232" width="76" height="5" rx="2.5" fill="url(#sm-bar)"/>
+
+      <rect x="404" y="154" width="168" height="96" rx="12" fill="#0B1426" stroke="#A78BFA" stroke-opacity=".25"/>
+      <text x="420" y="176" fill="#64748B" font-size="9">TASKS DONE</text>
+      <text x="420" y="202" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="24" font-weight="700">24/31</text>
+      <text x="420" y="222" fill="#A78BFA" font-size="9">77% completion</text>
+      <rect x="420" y="232" width="100" height="5" rx="2.5" fill="#1E293B"/>
+      <rect x="420" y="232" width="77" height="5" rx="2.5" fill="url(#sm-bar)"/>
+
+      <rect x="584" y="154" width="168" height="96" rx="12" fill="#0B1426" stroke="#22D3EE" stroke-opacity=".22"/>
+      <text x="600" y="176" fill="#64748B" font-size="9">NEXT DEADLINE</text>
+      <text x="600" y="202" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="18" font-weight="700">DBMS Lab</text>
+      <text x="600" y="222" fill="#22D3EE" font-size="9">in 3 days</text>
+      <rect x="600" y="232" width="100" height="5" rx="2.5" fill="#1E293B"/>
+      <rect x="600" y="232" width="40" height="5" rx="2.5" fill="url(#sm-bar)"/>
+    </g>
+
+    <rect x="224" y="266" width="348" height="194" rx="12" fill="#0B1426" stroke="#94A3B8" stroke-opacity=".12"/>
+    <text x="240" y="290" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="12" font-weight="600">This week</text>
+    <g font-family="Inter, sans-serif" font-size="8" fill="#64748B" text-anchor="middle">
+      <text x="268" y="312">Mon</text><text x="316" y="312">Tue</text><text x="364" y="312">Wed</text>
+      <text x="412" y="312">Thu</text><text x="460" y="312">Fri</text><text x="508" y="312">Sat</text>
+    </g>
+    <g>
+      <rect x="248" y="324" width="40" height="34" rx="6" fill="#60A5FA" fill-opacity=".2"/>
+      <rect x="296" y="324" width="40" height="20" rx="6" fill="#A78BFA" fill-opacity=".18"/>
+      <rect x="296" y="348" width="40" height="26" rx="6" fill="#22D3EE" fill-opacity=".16"/>
+      <rect x="344" y="324" width="40" height="50" rx="6" fill="#60A5FA" fill-opacity=".14"/>
+      <rect x="392" y="330" width="40" height="30" rx="6" fill="#A78BFA" fill-opacity=".2"/>
+      <rect x="440" y="324" width="40" height="40" rx="6" fill="#60A5FA" fill-opacity=".12"/>
+      <rect x="488" y="330" width="40" height="22" rx="6" fill="#22D3EE" fill-opacity=".16"/>
+    </g>
+    <rect x="248" y="386" width="280" height="1" fill="#94A3B8" fill-opacity=".1"/>
+    <text x="240" y="410" fill="#64748B" font-family="Inter, sans-serif" font-size="9">Upcoming</text>
+    <circle cx="248" cy="428" r="3" fill="#60A5FA"/>
+    <text x="260" y="432" fill="#A6B2C8" font-family="Inter, sans-serif" font-size="9">Operating Systems assignment</text>
+    <circle cx="248" cy="446" r="3" fill="#A78BFA"/>
+    <text x="260" y="450" fill="#A6B2C8" font-family="Inter, sans-serif" font-size="9">ML notebook — review notes</text>
+
+    <rect x="584" y="266" width="168" height="194" rx="12" fill="#0B1426" stroke="#94A3B8" stroke-opacity=".12"/>
+    <text x="600" y="290" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="12" font-weight="600">Progress</text>
+    <circle cx="668" cy="356" r="46" stroke="#1E293B" stroke-width="10" fill="none"/>
+    <circle cx="668" cy="356" r="46" stroke="url(#sm-accent)" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="219 289" transform="rotate(-90 668 356)"/>
+    <text x="668" y="352" text-anchor="middle" fill="#F8FAFC" font-family="Sora, Inter, sans-serif" font-size="20" font-weight="700">76%</text>
+    <text x="668" y="368" text-anchor="middle" fill="#64748B" font-family="Inter, sans-serif" font-size="8">completed</text>
+    <text x="600" y="424" fill="#64748B" font-family="Inter, sans-serif" font-size="8">Courses</text>
+    <rect x="600" y="430" width="136" height="5" rx="2.5" fill="#1E293B"/>
+    <rect x="600" y="430" width="112" height="5" rx="2.5" fill="url(#sm-bar)"/>
+    <text x="600" y="448" fill="#64748B" font-family="Inter, sans-serif" font-size="8">Tasks</text>
+    <rect x="600" y="454" width="136" height="5" rx="2.5" fill="#1E293B"/>
+    <rect x="600" y="454" width="86" height="5" rx="2.5" fill="url(#sm-bar)"/>
+  </g>
+</svg>

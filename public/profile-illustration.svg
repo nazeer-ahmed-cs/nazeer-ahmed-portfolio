@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="92" y1="66" x2="470" y2="502" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity=".24"/>
+      <stop offset=".55" stop-color="#7C3AED" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="176" y1="338" x2="384" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0B1122"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="232" y1="180" x2="334" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1C7A5"/>
+      <stop offset="1" stop-color="#C98963"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="206" y1="122" x2="366" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset=".6" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(280 280) rotate(90) scale(235)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity=".5"/>
+    </filter>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#94A3B8" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+
+  <circle cx="280" cy="280" r="236" fill="url(#bg)" stroke="#94A3B8" stroke-opacity=".16"/>
+  <circle cx="280" cy="280" r="208" stroke="#60A5FA" stroke-opacity=".2" stroke-dasharray="4 13"/>
+  <circle cx="280" cy="280" r="256" fill="url(#dots)" opacity=".6"/>
+  <ellipse cx="280" cy="280" rx="255" ry="112" stroke="#A78BFA" stroke-opacity=".28" transform="rotate(-23 280 280)"/>
+  <ellipse cx="280" cy="280" rx="255" ry="112" stroke="#22D3EE" stroke-opacity=".14" transform="rotate(33 280 280)"/>
+  <circle cx="280" cy="280" r="170" fill="url(#glow)" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="92" width="116" height="38" rx="12" fill="#0B1122" stroke="#60A5FA" stroke-opacity=".42"/>
+    <text x="130" y="116" text-anchor="middle" fill="#BFDBFE" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">AI &amp; ML</text>
+    <rect x="386" y="122" width="102" height="38" rx="12" fill="#0B1122" stroke="#A78BFA" stroke-opacity=".42"/>
+    <text x="437" y="146" text-anchor="middle" fill="#DDD6FE" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">&lt;/&gt;</text>
+    <rect x="52" y="380" width="104" height="38" rx="12" fill="#0B1122" stroke="#22D3EE" stroke-opacity=".36"/>
+    <text x="104" y="404" text-anchor="middle" fill="#A5F3FC" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">DSA</text>
+    <rect x="404" y="390" width="104" height="38" rx="12" fill="#0B1122" stroke="#60A5FA" stroke-opacity=".36"/>
+    <text x="456" y="414" text-anchor="middle" fill="#BFDBFE" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">C++</text>
+  </g>
+
+  <g opacity=".9">
+    <circle cx="122" cy="224" r="5" fill="#60A5FA"/>
+    <circle cx="432" cy="280" r="4" fill="#22D3EE"/>
+    <circle cx="154" cy="452" r="3.5" fill="#A78BFA"/>
+    <circle cx="396" cy="472" r="5" fill="#60A5FA"/>
+    <circle cx="452" cy="214" r="3" fill="#A78BFA"/>
+    <path d="M128 224H86M432 280H478M154 452H108M396 472H444" stroke="#60A5FA" stroke-opacity=".25" stroke-dasharray="3 6"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M150 500C155 408 204 344 280 344C356 344 405 408 410 500H150Z" fill="url(#hoodie)" stroke="#94A3B8" stroke-opacity=".2"/>
+    <path d="M236 334C236 372 254 390 280 390C306 390 324 372 324 334L302 324H258L236 334Z" fill="#0B1122"/>
+    <path d="M256 302H304V344C304 358 293 367 280 367C267 367 256 358 256 344V302Z" fill="url(#skin)"/>
+    <ellipse cx="280" cy="245" rx="68" ry="78" fill="url(#skin)"/>
+    <path d="M211 244C206 180 238 145 280 145C324 145 355 178 349 244C337 206 315 191 280 191C247 191 224 208 211 244Z" fill="#0F172A"/>
+    <path d="M215 249C215 237 221 230 231 230C241 230 246 237 246 249V260C246 270 241 276 231 276C221 276 215 270 215 260V249Z" fill="#DB9B74"/>
+    <path d="M314 249C314 237 319 230 329 230C339 230 345 237 345 249V260C345 270 339 276 329 276C319 276 314 270 314 260V249Z" fill="#DB9B74"/>
+    <rect x="234" y="238" width="40" height="29" rx="9" fill="#0B1122" stroke="#60A5FA" stroke-opacity=".8"/>
+    <rect x="286" y="238" width="40" height="29" rx="9" fill="#0B1122" stroke="#60A5FA" stroke-opacity=".8"/>
+    <path d="M274 251H286" stroke="#60A5FA" stroke-width="2"/>
+    <path d="M262 286C268 294 274 297 280 297C286 297 292 294 298 286" stroke="#0B1122" stroke-width="3" stroke-linecap="round"/>
+    <path d="M210 397C226 381 250 372 280 372C310 372 334 381 350 397" stroke="#60A5FA" stroke-opacity=".48" stroke-width="2"/>
+    <rect x="238" y="414" width="84" height="42" rx="12" fill="#0B1122" stroke="url(#accent)" stroke-opacity=".6"/>
+    <text x="280" y="440" text-anchor="middle" fill="#BFDBFE" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600">&lt;/&gt;</text>
+  </g>
+
+  <g opacity=".55" stroke="#A78BFA" stroke-width="1.2">
+    <path d="M180 166L202 144L224 166L202 188L180 166Z"/>
+    <path d="M352 170L368 154L384 170L368 186L352 170Z"/>
+  </g>
+</svg>
